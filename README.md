@@ -10,3 +10,6 @@ Censorship circumvention on a set of tools and APIs for resilient DNS setups acr
 - [ ] Sync DNS Resolvers
 - [ ] Sync Proxies
 - [ ] ...
+
+![Demo](https://raw.githubusercontent.com/ajsb85/c4v-internet-censorship/master/demo.gif)
+

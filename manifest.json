@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Code 4 Venezuela!",
+  "version": "1.0",
+  "description": "Censorship circumvention on a set of tools and APIs for resilient DNS setups across Desktop Web Browsers.",
+  "homepage_url": "https://www.codeforvenezuela.org/",
+  "icons": {
+    "48": "icons/bookmark-it.png",
+    "96": "icons/bookmark-it@2x.png"
+  },
+
+  "permissions": [
+    "webRequest", 
+    "webRequestBlocking", 
+    "<all_urls>",     
+    "bookmarks",
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/c4v-enabled-38.png",
+    "default_title": "Code 4 Venezuela!"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
